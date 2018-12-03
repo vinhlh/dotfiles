@@ -5,3 +5,7 @@
 ./brew-cask.sh
 ./npm-modules.sh
 sh .osx
+
+
+git config --global user.email "vinh.ninja@icloud.comm"
+git config --global user.name "Vinh Le"
