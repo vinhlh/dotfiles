@@ -9,6 +9,8 @@ sh .osx
 
 git config --global user.email "vinh.ninja@icloud.comm"
 git config --global user.name "Vinh Le"
+git config --global user.signingkey 3A6EC840
+git config --global commit.gpgsign true
 
 cp fonts/* ~/Library/Fonts
 
