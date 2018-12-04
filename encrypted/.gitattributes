@@ -1,0 +1,2 @@
+.gitattributes !filter !diff
+fonts/* filter=git-crypt diff=git-crypt
