@@ -8,7 +8,6 @@ brew update
 # Upgrade any already-installed formulae
 brew upgrade
 
-
 # GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
 brew install moreutils
@@ -42,19 +41,6 @@ brew install z
 # run this script when this file changes guy.
 brew install entr
 
-# github util. gotta love `hub fork`, `hub create`, `hub checkout <PRurl>`
-brew install hub
-
-
-# mtr - ping & traceroute. best.
-brew install mtr
-
-    # allow mtr to run without sudo
-    mtrlocation=$(brew info mtr | grep Cellar | sed -e 's/ (.*//') #  e.g. `/Users/paulirish/.homebrew/Cellar/mtr/0.86`
-    sudo chmod 4755 $mtrlocation/sbin/mtr
-    sudo chown root $mtrlocation/sbin/mtr
-
-
 # Install other useful binaries
 brew install fzf
 
@@ -75,8 +61,12 @@ brew install awscli
 brew install httpie
 brew install git-crypt
 
+brew install go
+
 brew install fish
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+fisher add rafaelrinaldi/pure
+fisher add jethrokuan/z
 
 # Remove outdated versions from the cellar
 brew cleanup
