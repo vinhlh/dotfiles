@@ -68,6 +68,8 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 fisher add rafaelrinaldi/pure
 fisher add jethrokuan/z
 
+brew install jq
+
 # Remove outdated versions from the cellar
 brew cleanup
 
