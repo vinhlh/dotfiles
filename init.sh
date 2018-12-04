@@ -12,6 +12,7 @@ git config --global user.name "Vinh Le"
 git config --global user.signingkey 3A6EC840
 git config --global commit.gpgsign true
 
-cp fonts/* ~/Library/Fonts
+cp encrypted/fonts/* ~/Library/Fonts
 
 cp gpg.conf ~/.gnupg
+cp encrypted/.sshconfig ~/.ssh/config
