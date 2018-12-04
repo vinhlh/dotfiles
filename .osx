@@ -220,6 +220,9 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop"
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
+# Fix https://github.com/Microsoft/vscode/issues/51132#issuecomment-424132330ss
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO
+
 # Enable HiDPI display modes (requires restart)
 # sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
