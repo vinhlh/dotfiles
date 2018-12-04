@@ -86,7 +86,9 @@ sudo easy_install pip
 brew install awscli
 brew install httpie
 brew install git-crypt
+
 brew install fish
+curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
 # Remove outdated versions from the cellar
 brew cleanup
