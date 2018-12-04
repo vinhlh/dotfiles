@@ -9,3 +9,7 @@ sh .osx
 
 git config --global user.email "vinh.ninja@icloud.comm"
 git config --global user.name "Vinh Le"
+
+cp fonts/* ~/Library/Fonts
+
+cp gpg.conf ~/.gnupg
