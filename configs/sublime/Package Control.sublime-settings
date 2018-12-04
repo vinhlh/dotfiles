@@ -1,0 +1,63 @@
+{
+	"bootstrapped": true,
+	"channels":
+	[
+		"https://packagecontrol.io/channel_v3.json"
+	],
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"All Autocomplete",
+		"Babel",
+		"BracketHighlighter",
+		"C Improved",
+		"Coffee Color Scheme",
+		"Colorsublime",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"ESLint-Formatter",
+		"Fix Mac Path",
+		"Git",
+		"GitGutter",
+		"GraphQL",
+		"Gutter Color",
+		"HTML-CSS-JS Prettify",
+		"JsPrettier",
+		"LiveStyle",
+		"LoremIpsum",
+		"Material Theme",
+		"Monokai - Spacegray",
+		"Monokai Extended",
+		"Nix",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"Phpcs",
+		"Pretty JSON",
+		"PyYapf Python Formatter",
+		"Sass",
+		"SideBarEnhancements",
+		"Splunk Conf File Syntax Highlighting",
+		"SqlBeautifier",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-contrib-sass-lint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-flow",
+		"Terminal",
+		"Terraform",
+		"Text Pastry",
+		"Theme - Flatland",
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"TypeScript"
+	],
+	"repositories":
+	[
+		"http://sublime.wbond.net/repositories.json"
+	]
+}
