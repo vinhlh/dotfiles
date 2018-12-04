@@ -1,0 +1,85 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'OperatorMono-Book'",
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.maxColumn": 120,
+    "editor.mouseWheelScrollSensitivity": 1.0,
+    "window.title": "vinhlh ❯ ${dirty}${activeEditorMedium}${separator}",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "coverage/**/*": true,
+        "storybook-static/**/*": true,
+        "**/*.pyc": true,
+        "node_modules": true,
+        "**/__pycache__": true
+    },
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "${workspaceRoot}/setup.cfg"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "files.useExperimentalFileWatcher": true,
+    "search.exclude": {
+        "/node_modules": true
+    },
+    "files.watcherExclude": {
+        "/node_modules/": true
+    },
+    "workbench.colorCustomizations": {},
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "cypress.json"
+            ],
+            "url": "https://on.cypress.io/cypress.schema.json"
+        }
+    ],
+    "editor.scrollBeyondLastLine": true,
+    "editor.wordWrap": "on",
+    "editor.folding": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.lineHeight": 19,
+    "editor.lineNumbers": "on",
+    "editor.matchBrackets": false,
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Material Theme High Contrast",
+    "workbench.editor.showIcons": false,
+    "workbench.statusBar.visible": false,
+    "javascript.validate.enable": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": true,
+    "workbench.iconTheme": null,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "100",
+    "[go]": {
+        "editor.formatOnSave": false
+    },
+    "search.location": "sidebar",
+    "go.inferGopath": true,
+    "go.toolsGopath": "/Users/vinhlh/Works/vinhlh/go",
+    "breadcrumbs.enabled": false
+}
