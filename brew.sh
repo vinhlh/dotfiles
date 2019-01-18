@@ -60,6 +60,7 @@ sudo easy_install pip
 brew install awscli
 brew install httpie
 brew install git-crypt
+brew install watchman
 
 brew install go
 
